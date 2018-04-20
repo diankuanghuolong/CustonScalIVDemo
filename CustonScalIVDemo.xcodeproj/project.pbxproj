@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		404C1588A25ABBC5CB8BEDF9 /* libPods-CustonScalIVDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8398C43BC51F8A9F8B7189A2 /* libPods-CustonScalIVDemo.a */; };
+		B6E92EE32089BC0B005F81DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E92EE22089BC0B005F81DB /* AppDelegate.m */; };
+		B6E92EE62089BC0B005F81DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E92EE52089BC0B005F81DB /* ViewController.m */; };
+		B6E92EE92089BC0B005F81DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6E92EE72089BC0B005F81DB /* Main.storyboard */; };
+		B6E92EEB2089BC0B005F81DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6E92EEA2089BC0B005F81DB /* Assets.xcassets */; };
+		B6E92EEE2089BC0B005F81DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6E92EEC2089BC0B005F81DB /* LaunchScreen.storyboard */; };
+		B6E92EF12089BC0B005F81DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E92EF02089BC0B005F81DB /* main.m */; };
+		B6E92EFA2089BCED005F81DB /* CustonScallImageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E92EF92089BCED005F81DB /* CustonScallImageVC.m */; };
+		B6E92EFE2089C0BA005F81DB /* CustonScaleImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E92EFD2089C0BA005F81DB /* CustonScaleImageView.m */; };
+		B6E92F002089C40E005F81DB /* listPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6E92EFF2089C40E005F81DB /* listPlist.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D0D8EBC7CCF68795C8AF391 /* Pods-CustonScalIVDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustonScalIVDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustonScalIVDemo/Pods-CustonScalIVDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8398C43BC51F8A9F8B7189A2 /* libPods-CustonScalIVDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustonScalIVDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6E92EDE2089BC0B005F81DB /* CustonScalIVDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustonScalIVDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6E92EE12089BC0B005F81DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6E92EE22089BC0B005F81DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6E92EE42089BC0B005F81DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B6E92EE52089BC0B005F81DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B6E92EE82089BC0B005F81DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6E92EEA2089BC0B005F81DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6E92EED2089BC0B005F81DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6E92EEF2089BC0B005F81DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6E92EF02089BC0B005F81DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6E92EF82089BCED005F81DB /* CustonScallImageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustonScallImageVC.h; sourceTree = "<group>"; };
+		B6E92EF92089BCED005F81DB /* CustonScallImageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustonScallImageVC.m; sourceTree = "<group>"; };
+		B6E92EFC2089C0BA005F81DB /* CustonScaleImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustonScaleImageView.h; sourceTree = "<group>"; };
+		B6E92EFD2089C0BA005F81DB /* CustonScaleImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustonScaleImageView.m; sourceTree = "<group>"; };
+		B6E92EFF2089C40E005F81DB /* listPlist.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = listPlist.plist; sourceTree = "<group>"; };
+		BCEFEA9B219EACCC951EBCD9 /* Pods-CustonScalIVDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustonScalIVDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustonScalIVDemo/Pods-CustonScalIVDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6E92EDB2089BC0B005F81DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				404C1588A25ABBC5CB8BEDF9 /* libPods-CustonScalIVDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6E92ED52089BC0B005F81DB = {
+			isa = PBXGroup;
+			children = (
+				B6E92EE02089BC0B005F81DB /* CustonScalIVDemo */,
+				B6E92EDF2089BC0B005F81DB /* Products */,
+				E077FA8A787B78C5537C840A /* Pods */,
+				E90B39AE815F6A3CB4867FE3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B6E92EDF2089BC0B005F81DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6E92EDE2089BC0B005F81DB /* CustonScalIVDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6E92EE02089BC0B005F81DB /* CustonScalIVDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B6E92EF72089BCC4005F81DB /* CustonScallImageView */,
+				B6E92EE12089BC0B005F81DB /* AppDelegate.h */,
+				B6E92EE22089BC0B005F81DB /* AppDelegate.m */,
+				B6E92EE42089BC0B005F81DB /* ViewController.h */,
+				B6E92EE52089BC0B005F81DB /* ViewController.m */,
+				B6E92EE72089BC0B005F81DB /* Main.storyboard */,
+				B6E92EEA2089BC0B005F81DB /* Assets.xcassets */,
+				B6E92EEC2089BC0B005F81DB /* LaunchScreen.storyboard */,
+				B6E92EEF2089BC0B005F81DB /* Info.plist */,
+				B6E92EF02089BC0B005F81DB /* main.m */,
+			);
+			path = CustonScalIVDemo;
+			sourceTree = "<group>";
+		};
+		B6E92EF72089BCC4005F81DB /* CustonScallImageView */ = {
+			isa = PBXGroup;
+			children = (
+				B6E92EFF2089C40E005F81DB /* listPlist.plist */,
+				B6E92EFB2089C0BA005F81DB /* custonImageView */,
+				B6E92EF82089BCED005F81DB /* CustonScallImageVC.h */,
+				B6E92EF92089BCED005F81DB /* CustonScallImageVC.m */,
+			);
+			path = CustonScallImageView;
+			sourceTree = "<group>";
+		};
+		B6E92EFB2089C0BA005F81DB /* custonImageView */ = {
+			isa = PBXGroup;
+			children = (
+				B6E92EFC2089C0BA005F81DB /* CustonScaleImageView.h */,
+				B6E92EFD2089C0BA005F81DB /* CustonScaleImageView.m */,
+			);
+			path = custonImageView;
+			sourceTree = "<group>";
+		};
+		E077FA8A787B78C5537C840A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D0D8EBC7CCF68795C8AF391 /* Pods-CustonScalIVDemo.debug.xcconfig */,
+				BCEFEA9B219EACCC951EBCD9 /* Pods-CustonScalIVDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E90B39AE815F6A3CB4867FE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8398C43BC51F8A9F8B7189A2 /* libPods-CustonScalIVDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6E92EDD2089BC0B005F81DB /* CustonScalIVDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6E92EF42089BC0B005F81DB /* Build configuration list for PBXNativeTarget "CustonScalIVDemo" */;
+			buildPhases = (
+				39AFB1C45C405379866C7A8E /* [CP] Check Pods Manifest.lock */,
+				B6E92EDA2089BC0B005F81DB /* Sources */,
+				B6E92EDB2089BC0B005F81DB /* Frameworks */,
+				B6E92EDC2089BC0B005F81DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustonScalIVDemo;
+			productName = CustonScalIVDemo;
+			productReference = B6E92EDE2089BC0B005F81DB /* CustonScalIVDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6E92ED62089BC0B005F81DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = com.Hai;
+				TargetAttributes = {
+					B6E92EDD2089BC0B005F81DB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B6E92ED92089BC0B005F81DB /* Build configuration list for PBXProject "CustonScalIVDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6E92ED52089BC0B005F81DB;
+			productRefGroup = B6E92EDF2089BC0B005F81DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6E92EDD2089BC0B005F81DB /* CustonScalIVDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6E92EDC2089BC0B005F81DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6E92EEE2089BC0B005F81DB /* LaunchScreen.storyboard in Resources */,
+				B6E92EEB2089BC0B005F81DB /* Assets.xcassets in Resources */,
+				B6E92F002089C40E005F81DB /* listPlist.plist in Resources */,
+				B6E92EE92089BC0B005F81DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39AFB1C45C405379866C7A8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustonScalIVDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6E92EDA2089BC0B005F81DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6E92EE62089BC0B005F81DB /* ViewController.m in Sources */,
+				B6E92EF12089BC0B005F81DB /* main.m in Sources */,
+				B6E92EFA2089BCED005F81DB /* CustonScallImageVC.m in Sources */,
+				B6E92EFE2089C0BA005F81DB /* CustonScaleImageView.m in Sources */,
+				B6E92EE32089BC0B005F81DB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B6E92EE72089BC0B005F81DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6E92EE82089BC0B005F81DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6E92EEC2089BC0B005F81DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6E92EED2089BC0B005F81DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6E92EF22089BC0B005F81DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B6E92EF32089BC0B005F81DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6E92EF52089BC0B005F81DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D0D8EBC7CCF68795C8AF391 /* Pods-CustonScalIVDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CustonScalIVDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hai.CustonScalIVDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6E92EF62089BC0B005F81DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCEFEA9B219EACCC951EBCD9 /* Pods-CustonScalIVDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CustonScalIVDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hai.CustonScalIVDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6E92ED92089BC0B005F81DB /* Build configuration list for PBXProject "CustonScalIVDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6E92EF22089BC0B005F81DB /* Debug */,
+				B6E92EF32089BC0B005F81DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6E92EF42089BC0B005F81DB /* Build configuration list for PBXNativeTarget "CustonScalIVDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6E92EF52089BC0B005F81DB /* Debug */,
+				B6E92EF62089BC0B005F81DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6E92ED62089BC0B005F81DB /* Project object */;
+}

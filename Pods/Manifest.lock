@@ -1,0 +1,16 @@
+PODS:
+  - HaiLayoutPod (1.0.0)
+
+DEPENDENCIES:
+  - HaiLayoutPod (~> 1.0.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - HaiLayoutPod
+
+SPEC CHECKSUMS:
+  HaiLayoutPod: 1a74ebeae973d280c521eddf50d13cbf8c0380cb
+
+PODFILE CHECKSUM: af5e07d4c4fc2b2daaae8ff5952f659942b0fe49
+
+COCOAPODS: 1.5.0
